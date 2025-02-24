@@ -2,7 +2,9 @@
     "token": "",
     "language": "en",
     "prefix": "!",
-    "mongodbUri": "",
+    "mongodbUri": "mongodb+srv://Evanwoon1:3vanw00n13@cluster0.2upyu.mongodb.net/?retryWrites=true&w=majority
+
+in this",
     "excessCommands": {
         "utility": true,
         "other": true,
