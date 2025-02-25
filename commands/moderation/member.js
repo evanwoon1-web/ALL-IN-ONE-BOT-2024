@@ -188,7 +188,7 @@ module.exports = {
 
             const warnEmbed = new EmbedBuilder()
                 .setColor('#ffcc00')
-                .setTitle('⚠️ You have been warned')
+                .setTitle(':warning: You have been striked')
                 .setDescription(`**Reason:** ${reason}`)
                 .setFooter({ text: `Issued by ${interaction.user.tag}` });
 
