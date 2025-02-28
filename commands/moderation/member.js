@@ -205,9 +205,9 @@ module.exports = {
 
             const dmEmbed = new EmbedBuilder()
                 .setColor('#0099ff')
-                .setTitle('[R.I] Systems')
+                .setTitle('[R.I]Systems')
                 .setDescription(message)
-                .setFooter({ text: `Sent from ${interaction.[R.I] Republic Intelligence}` });
+                .setFooter({ text: `Sent from ${interaction.user.tag}` });
 
             try {
                 await target.send({ embeds: [dmEmbed] });
