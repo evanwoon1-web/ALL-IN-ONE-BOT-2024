@@ -207,7 +207,7 @@ module.exports = {
                 .setColor('#0099ff')
                 .setTitle('[R.I] Republic Intelligence')
                 .setDescription(message)
-                .setFooter({ text: `Sent from ${interaction.[R.I] Republic Intelligence}` });
+                .setFooter({ text: `Sent from ${interaction.user.tag}` });
 
             try {
                 await target.send({ embeds: [dmEmbed] });
