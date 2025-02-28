@@ -188,7 +188,7 @@ module.exports = {
 
             const warnEmbed = new EmbedBuilder()
                 .setColor('#ffcc00')
-                .setTitle(':warning: You have been striked')
+                .setTitle(':exclamation: You have been striked')
                 .setDescription(`**Reason:** ${reason}`)
                 .setFooter({ text: `Issued by ${interaction.user.tag}` });
 
@@ -205,9 +205,9 @@ module.exports = {
 
             const dmEmbed = new EmbedBuilder()
                 .setColor('#0099ff')
-                .setTitle('[R.I]Systems')
+                .setTitle('[R.I] Republic Intelligence')
                 .setDescription(message)
-                .setFooter({ text: `Sent from ${interaction.user.tag}` });
+                .setFooter({ text: `Sent from ${interaction.[R.I] Republic Intelligence}` });
 
             try {
                 await target.send({ embeds: [dmEmbed] });
